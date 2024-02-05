@@ -1,0 +1,620 @@
+:root {
+    --bg-color          : #EBF3FE;
+    --CTA-btn-color     : linear-gradient (to right, #63BBFC, #8094FE);
+    --blue-color        : #7db7e0;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* --------------------------------------
+    Navbar
+----------------------------------------*/
+.navbar {
+    font-size: 0.8rem;
+}
+
+.navbar .logo-kemendikbud {
+    width: 4rem;
+}
+
+.navbar .logo-sipinter {
+    width: 7rem;
+}
+
+/* --------------------------------------
+    Hero
+----------------------------------------*/
+.hero {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-text {
+    padding-top: 10rem;
+}
+
+.hero h1 {
+    font-weight: bold;
+}
+
+.hero h5 {
+    font-weight: 600;
+    color: var(--blue-color);
+}
+
+.hero label {
+    font-size: 0.7rem;
+    padding-top: 10px;
+}
+
+.hero form {
+    display: flexz;
+}
+
+.hero .input-berkas {
+    height: 60px;
+    font-size: 1rem;
+    display: flex;
+    width: 30rem;
+}
+
+.hero p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.btn-lacak {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    background-color: var(--blue-color);
+    margin-left: 10px;
+    color: white;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.hero i {
+    padding-left: 5px;
+}
+
+.hero img {
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.btn-cta {
+    width: 300px;
+    background-color: var(--blue-color);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    border-radius: 100px;
+}
+
+/* --------------------------------------
+    Halaman Data
+----------------------------------------*/
+.data {
+    min-height: 130vh;
+    padding-top: 5rem;
+}
+
+.data img {
+    width: 15%;
+}
+
+.data .input-data {
+    display: flex;
+    justify-content: center;
+}
+
+.data .input-data2 {
+    margin-left: 2rem;
+}
+
+.data .input-data label {
+    font-weight: 500;
+}
+
+/* --------------------------------------
+    Halaman Daftar
+----------------------------------------*/
+.popup {
+    margin: 5% auto 0;
+    left: 10%;
+    right: 60%;
+    margin-right: 10%;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-top: 23rem;
+}
+
+.form-check {
+    margin-left: 5rem;
+}
+
+.video {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+video {
+    width: 80%;
+    height: 500px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.daftar {
+    min-height: 100vh;
+    padding-top: 10rem;
+}
+
+.daftar img {
+    width: 15%;
+}
+
+.card {
+    background-color: var(--blue-color);
+}
+
+.daftar p {
+    font-size: 0.9rem;
+    padding-top: 15px;
+}
+
+.layanan img {
+    width: 500%;
+}
+
+.input {
+    display: flex;
+    padding-left: 230px;
+    padding-top: 10px;
+}
+
+.input input {
+    width: 75%;
+}
+
+#tombol {
+    margin-left: 5rem;
+}
+
+.btn-next {
+    width: 300px;
+    background-color: var(--blue-color);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    border-radius: 100px;
+}
+
+/* --------------------------------------
+    Layanan
+----------------------------------------*/
+.layanan {
+    min-height: 110vh;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.layanan img {
+    width: 15%;
+}
+
+.layanan p {
+    font-size: 0.9rem;
+    padding-top: 15px;
+}
+
+.layanan .search-box {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 40px;
+    background-color: #fafafa;
+}
+
+.search-box .search-icon {
+    font-size: 1.18rem;
+    color: #b6b6b6;
+}
+
+.search-box .search-input {
+    transition: .5s;
+}
+
+.search-input input {
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+}
+
+.layanan a{
+    text-decoration: none;
+    color: #181818;
+    margin: 10px;
+}
+
+.layanan li {
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #e6eef5;
+    cursor: pointer;
+    float: left;
+    margin: 6px;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    width: 30%;
+    height: 95px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.layanan .bg-card {
+    width: 100%;
+}
+
+.layanan li:hover {
+    background-color: #afd5df;
+    color: white;
+}
+
+/* --------------------------------------
+    Verifikasi
+----------------------------------------*/
+.verifikasi img {
+    width: 15%;
+    padding-bottom: 15px;
+}
+
+.verifikasi {
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+.verifikasi hr {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.btn-cta {
+    background-color: var(--blue-color);
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    border-radius: 100px;
+}
+
+.verifikasi .info {
+    border: 2px #c2c2c2 solid;
+    padding: 20px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+}
+
+.verifikasi .info h3 {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1100px) {
+    .hero {
+        min-height: 110vh;
+    }
+
+    .hero .hero-text {
+        padding-top: 5rem;
+    }
+
+    .hero img {
+        padding-top: 0;
+    }
+
+    .navbar {
+        font-size: 0.60rem;
+    }
+
+    .navbar img {
+        margin: 0;
+    }
+
+    .data .input-data {
+        display: flex;
+    }
+
+    .video #tombol {
+        margin-left: 5rem;
+        padding-top: 1rem;
+    }
+
+    video {
+        padding-top: 3rem;
+        width: 80%;
+        height: auto;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .input {
+        display: flex;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    
+    .input input {
+        width: 105%;
+    }
+
+    /* Daftar */
+    .daftar {
+        padding-top: 6rem;
+    }
+
+    .daftar img {
+        width: 15%;
+    }
+
+    /* Layanan */
+    .layanan li {
+        height: 97px;
+        font-size: 1rem;
+        padding-top: auto;
+    }
+
+    /* Verifikasi */
+    .verifikasi .info {
+        border: 2px #c2c2c2 solid;
+        padding: 20px;
+        margin-left: 14rem;
+        margin-right: 14rem;
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+
+    .verifikasi img{
+        width: 15%;
+    }
+}
+
+@media (max-width: 991px) {
+    .data {
+        padding-bottom: 4rem;
+    }
+
+    .data img {
+        width: 20%;
+    }
+
+    .data .input-data {
+        display: inline;
+    }
+
+    .data .input-data2 {
+        margin-left: 0;
+    }
+
+    /* Verifikasi */
+    .verifikasi .info {
+        border: 2px #c2c2c2 solid;
+        padding: 20px;
+        margin-left: 8rem;
+        margin-right: 8rem;
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+
+    .verifikasi img{
+        width: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 7rem;
+    }
+
+    .data img {
+        width: 35%;
+    }
+
+    /* Daftar */
+    video {
+        margin-left: 3.90rem;
+    }
+
+    .video .form-check {
+        margin-left: 3.90rem;
+    }
+
+    /* Layanan */
+    .layanan img {
+        width: 20%;
+    }
+
+    .layanan li {
+        height: 97px;
+        width: 45%;
+        font-size: 0.8rem;
+        padding-top: 1.7rem;
+    }
+
+    /* Veifikasi */
+    .verifikasi img {
+        width: 20%;
+    }
+
+    .verifikasi .info {
+        border: 2px #c2c2c2 solid;
+        padding: 20px;
+        margin-left: 6rem;
+        margin-right: 6rem;
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 490px) {
+    .hero .input-berkas {
+        height: 60px;
+        font-size: 1rem;
+        display: inline;
+        width: 25rem;
+    }
+
+    /* Daftar */
+    video {
+        width: 93%;
+        height: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .video #tombol {
+        margin-left: 1rem;
+        width: 150px;
+    }
+
+    .video .form-check {
+        margin-left: 1rem;
+    }
+
+    .daftar img {
+        width: 40%;
+    }
+
+    .input input {
+        width: 100%;
+    }
+
+    /* Verifikasi */
+    .verifikasi img {
+        width: 35%;
+    }
+
+    .verifikasi .info {
+        border: 2px #c2c2c2 solid;
+        padding: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+
+    .verifikasi .info h3 {
+        font-size: 0.9rem;
+    }
+
+    .verifikasi .info p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 411px) {
+    .hero .input {
+        height: 90px;
+        font-size: 1rem;
+        display: inline;
+        width: 25rem;
+        padding-bottom: 10px;
+    }
+
+    .hero .btn-lacak {
+        width: 130px;
+        font-size: 0.9rem;
+    }
+
+    .hero .btn-cta {
+        width: 200px;
+        font-size: 0.9rem;
+    }
+
+    .data img {
+        width: 45%;
+    }
+
+    /* Daftar */
+    .video {
+        padding-top: 3rem;
+    }
+
+    video {
+        width: 90%;
+        height: auto;
+    }
+
+    .daftar img {
+        width: 50%;
+    }
+
+    .input input {
+        width: 100%;
+    }
+
+    /* Layanan */
+    .layanan img {
+        width: 30%;
+    }
+
+    .layanan li {
+        width: 100%;
+    }
+
+    .layanan ul {
+        margin-left: 0;
+        margin-right: 3rem;
+    }
+
+    /* Verifikasi */
+    .verifikasi img {
+        width: 35%;
+    }
+
+    .verifikasi .info {
+        border: 2px #c2c2c2 solid;
+        padding: 20px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+
+    .btn-cta {
+        width: auto;
+    }
+
+    .verifikasi .info h3 {
+        font-size: 0.9rem;
+    }
+
+    .verifikasi .info p {
+        font-size: 0.8rem;
+    }
+}
